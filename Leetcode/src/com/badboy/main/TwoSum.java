@@ -10,6 +10,15 @@ public class TwoSum {
 		
 	}
 	
+	/**
+	 * 时间复杂度o(n)
+	 * 空间复杂度o（n）
+	 * 遍历数组，判断map中是否有加起来等于target的数，如果存在，结果找到。
+	 * 如果不存在，把当前的数字存进map
+	 * @param nums
+	 * @param target
+	 * @return
+	 */
 	public static int[] twoSum(int[] nums, int target) {
 		int[] rets = new int[2] ;
         Map<Integer,Integer> map = new HashMap<>() ;
