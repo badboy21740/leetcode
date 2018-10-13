@@ -21,6 +21,12 @@ public class AddTwoNumbers_2 {
 		}
 	}
 
+	/**
+	 * 主要是要考虑进位的问题
+	 * @param l1
+	 * @param l2
+	 * @return
+	 */
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		ListNode list = null ;
 		ListNode last = null ;
