@@ -3,7 +3,7 @@ package com.badboy.main;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSum {
+public class TwoSum_1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -19,7 +19,7 @@ public class TwoSum {
 	 * @param target
 	 * @return
 	 */
-	public static int[] twoSum(int[] nums, int target) {
+	public int[] twoSum(int[] nums, int target) {
 		int[] rets = new int[2] ;
         Map<Integer,Integer> map = new HashMap<>() ;
         for(int i=0;i<nums.length;i++) {
